@@ -8,12 +8,7 @@ import org.aion.avm.userlib.abi.ABIDecoder;
 
 import java.math.BigInteger;
 
-//TODO: move reference implementation to an INTERFACE and use it as a mixin!
-//TODO: Which parts of JavaDoc should be sentences (have periods)?
-//TODO: Aion specifies Google Java code style SOURCE https://github.com/aionnetwork/aion/wiki/Aion-Code-Conventions so we should validate
-//TODO: we use byte[] and don't use bignumber, is that a problem?
-//TODO: need to get 100% coverage and confirm that we have 100% in the travis test
-//TODO: reformat this and all other files with Google Java convention
+
 
 /**
  * Reference implementation for the AIP-010 Non-Fungible Token Standard

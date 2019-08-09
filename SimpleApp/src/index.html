@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content='IE=edge;chrome=1'>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>AIP baby project</title>
+    <!--<link rel=stylesheet href="css/marx.min.css">-->
+</head>
+
+<body>
+<main>
+    <section>
+        <h2>Get String</h2>
+        <p onclick="getString()">The current string is: <i id="current_string_output"></i></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Set String</h2>
+        <form>
+            Enter a New String:<br>
+            <input type="text" id="new_string_input" placeholder="Lorem Ipsum is fun to say." required>
+            <br>
+            <button type="button" id="submit_button" onclick="setString()">Submit</button>
+        </form>
+    </section>
+
+</main>
+</body>
+<script src="web3.min.js"></script>
+<script src="script.js"></script>
+</html>

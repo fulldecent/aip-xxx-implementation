@@ -6,12 +6,12 @@
 
 This project implements AIP-XXX, the Favorite Number Standard using all best practices.
 
- - `aipXXXGetFavoriteBool()`
- - `aipXXXSetFavoriteBool()`
+ - `aipXXXGetFavoriteString()`
+ - `aipXXXSetFavoriteString()`
 
 This project also extends by adding its own features.
 
- - `setFavoriteBoolOnBackwardsDay()`
+ - `setFavoriteStringOnBackwardsDay()`
  - `getOwner()`
  - `setOwner()`
 
