@@ -47,6 +47,12 @@ at the bottom of your build.
 
 After you have made any changes, run the build and test command above.
 
+## Project scope
+
+- A simple standard (interface)
+- A simple implementation
+- A simple dapp web front-end in vanilla JavaScript + Bootstrap CSS
+
 ## References
 
 - Best practice for Java+Maven+JUnit project layout https://github.com/junit-team/junit5-samples/tree/master/junit5-jupiter-starter-maven
