@@ -11,9 +11,9 @@ This project implements AIP-XXX, the Favorite Number Standard using all best pra
 
 This project also extends by adding its own features.
 
- - `setFavoriteStringOnBackwardsDay()`
- - `getOwner()`
- - `setOwner()`
+ - `aipXXXGetOwner()`
+ - `aipXXXSetOwner()`
+ - `aipXXXAcceptOwnership()`
 
 ## Prerequisites
 
@@ -46,6 +46,12 @@ A build which passes all tests will be indicated by:
 at the bottom of your build.
 
 After you have made any changes, run the build and test command above.
+
+## Project scope
+
+- A simple standard (interface)
+- A simple implementation
+- A simple dapp web front-end in vanilla JavaScript + Bootstrap CSS
 
 ## References
 

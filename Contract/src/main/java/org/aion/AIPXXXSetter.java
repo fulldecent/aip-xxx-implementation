@@ -16,7 +16,7 @@ public class AIPXXXSetter {
   
   public static void aipXXXSetFavoriteString(String newFavoriteString) {
       favoriteString = newFavoriteString;
-    Blockchain.putStorage(AIPXXXKeyValueStorage.favoriteStringKey(newFavoriteString), Blockchain.getCaller().toByteArray());
-    AIPXXXEvents.aipXXXFavoriteStringSet(newFavoriteString);
+      Blockchain.putStorage(AIPXXXKeyValueStorage.favoriteStringKey(newFavoriteString), Blockchain.getCaller().toByteArray());
+      AIPXXXEvents.aipXXXFavoriteStringSet(newFavoriteString);
   }
 }

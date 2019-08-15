@@ -2,19 +2,6 @@ const nodeUrl = "https://aion.api.nodesmith.io/v1/mastery/jsonrpc?apiKey=ab40c8f
 let contractAddress = "0xa0acaed50c69d1552b4effe98287ca7df3970fac488bb7b03e860d474374e226";
 const web3 = new Web3(new Web3.providers.HttpProvider(nodeUrl));
 
-let abi = `0.0
-org.aion.AIPXXX
-Clinit: (String)
-public static String aipXXXGetFavoriteString()
-public static void aipXXXSetFavoriteString(String)
-public static Address aipXXXGetOwner()
-public static void aipXXXSetOwner(Address)
-public static void aipXXXAcceptOwnership()
-`;
-
-let abiObj = web3.avm.contract.Interface(abi);
-
-//ToDo
 
 async function getString() {
     let initialResponse = await web3.eth.call({to:contractAddress, data:web3.avm.contract.method("aipXXXGetFavoriteString").encode()});

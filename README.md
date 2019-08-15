@@ -6,52 +6,21 @@
 
 This project implements AIP-XXX, the Favorite Number Standard using all best practices.
 
- - `aipXXXGetFavoriteBool()`
- - `aipXXXSetFavoriteBool()`
+ - `aipXXXGetFavoriteString()`
+ - `aipXXXSetFavoriteString()`
 
 This project also extends by adding its own features.
 
- - `setFavoriteBoolOnBackwardsDay()`
- - `getOwner()`
- - `setOwner()`
+ - `aipXXXGetOwner()`
+ - `aipXXXSetOwner()`
+ - `aipXXXAcceptOwnership()`
 
-## Prerequisites
-
-1. Supported operating systems are macOS, Linux and Windows
-2. Install Java (version 11 or later) and Apache Maven
-   - On macOS
-     1. [Do not use](https://stackoverflow.com/a/28635465/300224) the official installer from Oracle, that approach is painful, nobody uses it
-     2. [Install Homebrew](https://brew.sh)
-     3. `brew cask install java`
-     4. `brew install maven`
-
-## Building and testing
-
-Prepare your Maven project build state
-
-```sh
-./mvnw initialize
-```
-
-Build and test
-
-```sh
-./mvnw clean install verify
-```
-
-A build which passes all tests will be indicated by:
-
-> [INFO] BUILD SUCCESS
-
-at the bottom of your build.
-
-After you have made any changes, run the build and test command above.
 
 ## Project scope
 
-- A simple standard (interface)
-- A simple implementation
-- A simple dapp web front-end in vanilla JavaScript + Bootstrap CSS
+-[ A simple standard (interface)](https://github.com/fulldecent/aip-xxx-implementation/blob/master/Contract/src/main/java/org/aion/AIPXXXSetter.java)
+- [A simple implementation ](https://github.com/fulldecent/aip-xxx-implementation/blob/master/Contract/src/main/java/org/aion/AIPXXX.java)
+- [A simple dapp web front-end in vanilla JavaScript + Bootstrap CSS](https://github.com/fulldecent/aip-xxx-implementation/tree/master/SimpleApp/src)
 
 ## References
 
