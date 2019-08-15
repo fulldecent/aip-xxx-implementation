@@ -1,4 +1,4 @@
-const nodeUrl = "https://aion.api.nodesmith.io/v1/mastery/jsonrpc?apiKey=ab40c8f567874400a69c1e80a1399350";
+const nodeUrl = "";
 let contractAddress = "0xa0acaed50c69d1552b4effe98287ca7df3970fac488bb7b03e860d474374e226";
 const web3 = new Web3(new Web3.providers.HttpProvider(nodeUrl));
 
