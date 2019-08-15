@@ -6,16 +6,9 @@
 
 This project implements AIP-XXX, the Favorite Number Standard using all best practices.
 
-<<<<<<< HEAD
- - `aipXXXGetFavoriteString()`
- - `aipXXXSetFavoriteString()`
 
 This project also extends by adding its own features.
 
- - `aipXXXGetOwner()`
- - `aipXXXSetOwner()`
- - `aipXXXAcceptOwnership()`
-=======
  - `aipXXXGetFavoriteNumber()`
  - `aipXXXSetFavoriteNumber()`
 
@@ -24,7 +17,7 @@ This project also extends by adding its own features.
  - `setFavoriteNumberOnBackwardsDay()`
  - `getOwner()`
  - `setOwner()`
->>>>>>> ea4b00c7d8d1854e57f37e8c0f6c5e5b06a75ba7
+
 
 
 ## Project scope
