@@ -20,7 +20,7 @@ import java.math.BigInteger;
 public class AIPXXX {
 
     @Initializable
-    private static String startingFavoriteString;
+    private static String deployerFavouriteString;
 
     private static Address owner;
     private static Address newOwner = null;
@@ -30,7 +30,7 @@ public class AIPXXX {
      * This is the deployment function and is responsible for taking parameters passed in using the Aion AVM and then standing up any contract initialization
      */
     static {
-        AIPXXXSetter.aipXXXSetFavoriteString(startingFavoriteString);
+        AIPXXXSetter.aipXXXSetFavoriteString(deployerFavouriteString);
         owner = Blockchain.getCaller();
     }
 
@@ -41,18 +41,18 @@ public class AIPXXX {
      * @return The Stringe
      */
     @Callable
-    public static String aipXXXGetFavoriteString() {
-        return AIPXXXSetter.aipXXXGetFavoriteString();
+    public static String aipXXXGetFavoriteString(Address user) {
+        return AIPXXXSetter.aipXXXGetFavoriteString(user);
     }
 
     /**
      * Set the favorite String
-     * @param favoriteString new favorite String
+     * @param newFavoriteString new favorite String
      * @return The Stringean
      */
     @Callable
-    public static void aipXXXSetFavoriteString(String favoriteString) {
-        AIPXXXSetter.aipXXXSetFavoriteString(favoriteString);
+    public static void aipXXXSetFavoriteString(String newFavoriteString) {
+        AIPXXXSetter.aipXXXSetFavoriteString(newFavoriteString);
     }
 
     @Callable

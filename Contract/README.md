@@ -7,7 +7,7 @@
 This project implements AIP-XXX, the Favorite Number Standard using all best practices.
 
  - `aipXXXGetFavoriteString()`
- - `aipXXXSetFavoriteString()`
+ - `aipXXXSetFavoriteString(String newFavoriteString)`
 
 This project also extends by adding its own features.
 

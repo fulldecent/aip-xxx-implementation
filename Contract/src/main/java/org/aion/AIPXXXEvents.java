@@ -15,6 +15,7 @@ public class AIPXXXEvents {
 //TODO: can Java do something like __FUNCTION__ here and if so should we?
         Blockchain.log("AIPXXFavoriteStringSet".getBytes(),
                 favoriteString.getBytes(),
+                Blockchain.getCaller().toByteArray(),
                 new byte[0]);
     }
 

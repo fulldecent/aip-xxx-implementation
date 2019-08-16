@@ -18,10 +18,10 @@ public class AIPXXXKeyValueStorage {
         FAVORITE_STRING
     }
 
-    public static byte[] favoriteStringKey(String favouriteString) {
-        return Blockchain.blake2b(AionBuffer.allocate(Integer.BYTES + favouriteString.length())
+    public static byte[] favoriteStringKey(Address user) {
+        return Blockchain.blake2b(AionBuffer.allocate(Integer.BYTES + Address.LENGTH)
                 .putInt(StorageSlots.FAVORITE_STRING.hashCode())
-                .put(favouriteString.getBytes())
+                .putAddress(user)
                 .getArray());
     }
 }

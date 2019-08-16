@@ -1,5 +1,5 @@
 const nodeUrl = "";
-let contractAddress = "0xa0acaed50c69d1552b4effe98287ca7df3970fac488bb7b03e860d474374e226";
+let contractAddress = "0xa0809b9d7f6d950a988c79a897088d36c2221f60a32a6bc4de41eda50bbbb802";
 const web3 = new Web3(new Web3.providers.HttpProvider(nodeUrl));
 
 
